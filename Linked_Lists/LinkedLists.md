@@ -9,8 +9,8 @@
 * Arrays have fixed sizes (fixed block of memory), adding an element is an expensive operation. 
 
 * Linked list is a sequence of nodes such that each node contains a reference to next node.
-	..* Each link is an **object**.
-	..* Each element in a linked list (node) contains two parts: data and a reference to the next node.
+	* Each link is an **object**.
+	* Each element in a linked list (node) contains two parts: data and a reference to the next node.
 
 ### How to construct a linked list?
 * Start with one node, when a second node is introduced, add memory address of second node to reference of first node.
