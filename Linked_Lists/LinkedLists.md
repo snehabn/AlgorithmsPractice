@@ -18,7 +18,7 @@
 * External reference to the beginning of the list called the head, it points to the first node in the list.
 
 * End of the list has a null in the reference part.
-![alt text](/LinkedListsBasic.png)
+![alt text](LinkedListsBasic.png)
  
 
 
