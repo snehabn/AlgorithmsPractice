@@ -15,28 +15,32 @@ class LinkedList
 	end
 
 	def remove_first
+		next_node = @head.next_node
+		@head = next_node
+
 	end
 
 	def insert_last(node = Node.new)
-		next_node = @head.next
-		if next_node == nil
-			@head.next = node
+		next_n = @head.next_node
+		if next_n == nil
+			@head.next_node = node
 		else
-			until next_node.next == nil
-				next_node = next_node.next
+			until next_n.next_node == nil
+				next_n = next_n.next_node
 			end
-			next_node.next = node
+			next_n.next_node = node
 		end
 	end
 
 	def remove_last
-	end
-
-	def append(new_node)
-		if @head
-			
+		next_n = @head.next_node
+		if next_n == nil
+			p @head
 		else
-			@head = new_node
+			until next_n.next_node == nil
+				next_n = next_n.next_node
+			end
+			next_n = nil
 		end
 	end
 
