@@ -13,8 +13,14 @@
 ## length of longest binary gap (integer)
 
 def solution(n)
-
-
+	string = binary(n)
+	counter = 0
+	for i in 0..string.length do
+		if i == "0"
+			counter += 1
+		else
+			
+	end
 end
 
 # Method
