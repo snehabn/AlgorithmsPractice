@@ -6,8 +6,8 @@
 
 # Steps
 ## Translate the input to binary string (separate method binary(n))
-## Set counters to count number of 0s in the string
-## Find and return the counter with the largest number
+## Split the string by '1', count the largest string in the array.
+## Find and return the string with the largest number
 
 # Output
 ## length of longest binary gap (integer)
